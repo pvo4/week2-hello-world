@@ -8,7 +8,7 @@
 
 # make sure that your code contains comments explaining your logic!
 
-print('What is your name?')
+print('What is your name?')		
 myName = input()
 print()
 print('It is a pleasure to meet you, ' + myName +'!')
@@ -18,13 +18,13 @@ print('1. Russian')
 print('2. Japanese')
 print('3. Vietnamese')
 print()
-number = input()
+number = input()			#Ask the user to input one of the three choices
 print()
-if number == '1':
-	print('Zdravstvuyte')
-elif number == '2':
+if number == '1':			#I used an if, elif and else statement to get the desire response
+	print('Zdravstvuyte')	#If the user inputs 1, the greeting will be in Russian
+elif number == '2':			#If the user inputs 2, greeting will be in Japanese and 3 for Vietnamese
 	print('Konnichiwa')
 elif number == '3':
 	print('Chao ban')
 else:
-	print('You did not input the correct number, try again.')
+	print('You did not input the correct number, try again.')	#If the user inputs any response other than 1,2, or 3 the program will tell them to try again
